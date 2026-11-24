@@ -17,7 +17,7 @@ services:
     command:
       - --path.rootfs=/host
     volumes:
-      - /:/host:ro,rslave
+      - /:/host:ro
     mem_limit: 64m
 
   alertmanager:
